@@ -28,4 +28,9 @@ class MainActivity : AppCompatActivity() {
     fun changeColor(view: View) {
         findViewById<TextView>(R.id.TvMain).setTextColor(Color.RED)
     }
+
+    fun changeBackground(view: View) {
+        findViewById<TextView>(R.id.TvMain).setBackgroundColor(Color.YELLOW)
+    }
+
 }

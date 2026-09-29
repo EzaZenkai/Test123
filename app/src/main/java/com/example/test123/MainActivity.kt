@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    //Comment for revert
     fun changeText(view: View) {
         findViewById<TextView>(R.id.TvMain).text = getString(R.string.text_changed)
     }
